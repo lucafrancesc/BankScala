@@ -4,7 +4,7 @@
 		module="bankscala_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190420111823"
+		publication="20190420120053"
 	>
 		<description>
 		BankScala
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.5" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
+		<dependency org="org.easymock" name="easymock" rev="4.0.2" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
