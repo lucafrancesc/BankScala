@@ -4,4 +4,4 @@ object TransactionType extends Enumeration {
   val Deposit, Withdraw = Value
 }
 
-case class Transaction (val date: LocalDate, val amount: BigDecimal, val transactionType: TransactionType.Value)
+case class Transaction (date: LocalDate, amount: BigDecimal, transactionType: TransactionType.Value)
