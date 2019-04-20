@@ -5,6 +5,8 @@ import Matchers._
 import org.scalatest.mockito.MockitoSugar
 import org.mockito.Mockito._
 
+import scala.collection.mutable.ArrayBuffer
+
 class StatementClass extends FunSuite with MockitoSugar {
   test("prints the statement") {
     val statement = new Statement
@@ -16,9 +18,8 @@ class StatementClass extends FunSuite with MockitoSugar {
 
     statement.printStatement(transactions) shouldBe
       """Date || Credit || Debit || Balance
-        |21/04/2019 || || 500.00 || 2500.00
-        |20/04/2019 || 2000.00 || || 3000.00
-        |20/04/2019 || 1000.00 || || 1000.00
-      """.stripMargin
+        |2019-04-21 || || 500.00 || 2500.00
+        |2019-04-20 || 2000.00 || || 3000.00
+        |2019-04-20 || 1000.00 || || 1000.00""".stripMargin
   }
 }
