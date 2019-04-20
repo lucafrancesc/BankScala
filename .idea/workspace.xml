@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc5461ab-bda8-4094-9d21-2926e547bf72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_easymock_easymock_4_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_objenesis_objenesis_3_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/DateProvider.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Transaction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/StatementClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_bytebuddy_byte_buddy_1_6_14_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_bytebuddy_byte_buddy_agent_1_6_14_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_mockito_mockito_core_2_8_47_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/BankScala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/BankScala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Account.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Account.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/AccountTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/AccountTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/StatementClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/StatementClass.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/bankscala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/bankscala$sources/0.1/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/bankscala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/bankscala$sources/0.1/resolved.xml.xml" afterDir="false" />
@@ -100,26 +98,26 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4345719">
+    <splitter split-orientation="horizontal" split-proportion="0.53634894">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/AccountTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-20">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <state relative-caret-position="238">
+                  <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
                   <folding>
-                    <element signature="e#0#22#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/DateProvider.scala">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.sbt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="22" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="22" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -127,8 +125,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/scala/StatementClass.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="42" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="23" selection-start-line="6" selection-start-column="6" selection-end-line="14" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#22#0" expanded="true" />
                   </folding>
@@ -143,8 +141,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/Account.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="187">
+                  <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -179,19 +177,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/scala/Account.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/Transaction.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/StatementClass.scala" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/src/test/scala/AccountTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/DateProvider.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Account.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/StatementClass.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/AccountTest.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -394,7 +393,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1439008335" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2985274039" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
     </option>
@@ -434,29 +433,45 @@
       <option name="project" value="LOCAL" />
       <updated>1555757359282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="date provider trait created">
+      <created>1555762422643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555762422643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest - 2019.04.20 at 11h 36m 59s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.04.20 at 11h 42m 17s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.04.20 at 11h 44m 54s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.04.20 at 11h 47m 53s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="AccountTest - 2019.04.20 at 12h 08m 55s.xml">
-      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StatementClass - 2019.04.20 at 12h 09m 08s.xml">
-      <configuration name="StatementClass" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="AccountTest - 2019.04.20 at 12h 27m 34s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 26m 30s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 27m 15s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 28m 56s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 29m 54s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 30m 30s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 31m 08s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 35m 07s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 44m 33s.xml">
+      <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AccountTest - 2019.04.20 at 13h 45m 11s.xml">
       <configuration name="AccountTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -477,10 +492,10 @@
       <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50080776" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.4712329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +514,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deposit method tested" />
     <MESSAGE value="implemented withdraw functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented withdraw functionality" />
+    <MESSAGE value="date provider trait created" />
+    <option name="LAST_COMMIT_MESSAGE" value="date provider trait created" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/build.properties">
@@ -512,40 +528,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/StatementClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/AccountTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Transaction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Account.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,10 +555,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Account.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/StatementClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="6" selection-start-column="6" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/AccountTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

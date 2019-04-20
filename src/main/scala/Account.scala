@@ -3,6 +3,7 @@ import java.time.LocalDate
 import scala.collection.mutable.ArrayBuffer
 
 class Account (dateProvider: DateProvider = new RealDateProvider){
+
   private var balance: BigDecimal = 0
   private var transactions: ArrayBuffer[Transaction] =  ArrayBuffer()
 
@@ -19,5 +20,6 @@ class Account (dateProvider: DateProvider = new RealDateProvider){
   }
 
   def returnBalance() = balance
+  def returnTransactions = transactions
 
 }

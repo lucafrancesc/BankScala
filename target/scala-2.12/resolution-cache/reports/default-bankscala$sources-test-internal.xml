@@ -7,10 +7,22 @@
 		revision="0.1"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190420120125"/>
+		date="20190420134256"/>
 	<dependencies>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="2.8.47" status="release" pubdate="20170615203823" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="/Users/apple/.ivy2/cache/org.mockito/mockito-core/ivy-2.8.47.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.pom"/>
+				<caller organisation="default" name="bankscala$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8.47" rev-constraint-default="2.8.47" rev-constraint-dynamic="2.8.47" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mockito-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="436539" time="565" location="/Users/apple/.ivy2/cache/org.mockito/mockito-core/srcs/mockito-core-2.8.47-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.easymock" name="easymock">
-			<revision name="4.0.2" status="release" pubdate="20181130202313" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+			<revision name="4.0.2" status="release" pubdate="20181130202313" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4951" time="0" location="/Users/apple/.ivy2/cache/org.easymock/easymock/ivy-4.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/easymock/easymock/4.0.2/easymock-4.0.2.pom"/>
 				<caller organisation="default" name="bankscala$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0.2" rev-constraint-default="4.0.2" rev-constraint-dynamic="4.0.2" callerrev="0.1"/>
@@ -22,13 +34,37 @@
 			</revision>
 		</module>
 		<module organisation="org.objenesis" name="objenesis">
-			<revision name="3.0.1" status="release" pubdate="20181019015547" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+			<revision name="3.0.1" status="release" pubdate="20181019015547" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3558" time="0" location="/Users/apple/.ivy2/cache/org.objenesis/objenesis/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.pom"/>
 				<caller organisation="default" name="bankscala$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="59933" time="0" location="/Users/apple/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-3.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/3.0.1/objenesis-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy-agent">
+			<revision name="1.6.14" status="release" pubdate="20170426195631" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8059" time="0" location="/Users/apple/.ivy2/cache/net.bytebuddy/byte-buddy-agent/ivy-1.6.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14.pom"/>
+				<caller organisation="default" name="bankscala$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.6.14" rev-constraint-default="1.6.14" rev-constraint-dynamic="1.6.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="byte-buddy-agent" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17943" time="135" location="/Users/apple/.ivy2/cache/net.bytebuddy/byte-buddy-agent/srcs/byte-buddy-agent-1.6.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.6.14/byte-buddy-agent-1.6.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.6.14" status="release" pubdate="20170426195655" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7844" time="0" location="/Users/apple/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.6.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14.pom"/>
+				<caller organisation="default" name="bankscala$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.6.14" rev-constraint-default="1.6.14" rev-constraint-dynamic="1.6.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1415187" time="658" location="/Users/apple/.ivy2/cache/net.bytebuddy/byte-buddy/srcs/byte-buddy-1.6.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.6.14/byte-buddy-1.6.14-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

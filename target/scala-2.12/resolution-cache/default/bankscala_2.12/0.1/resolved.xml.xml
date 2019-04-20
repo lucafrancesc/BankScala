@@ -4,7 +4,7 @@
 		module="bankscala_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190420120053"
+		publication="20190420134253"
 	>
 		<description>
 		BankScala
@@ -35,5 +35,6 @@
 		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.5" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.easymock" name="easymock" rev="4.0.2" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="2.8.47" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

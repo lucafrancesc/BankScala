@@ -1,7 +1,13 @@
+import java.time.LocalDate
+
 import org.scalatest._
 import Matchers._
+import org.scalatest.mockito.MockitoSugar
+import org.mockito.Mockito._
 
-class AccountTest extends FunSuite {
+import scala.collection.mutable.ArrayBuffer
+
+class AccountTest extends FunSuite with MockitoSugar {
 
   test("returns 0 balance" ) {
     val account = new Account
@@ -22,10 +28,20 @@ class AccountTest extends FunSuite {
   }
 
   test("return transaction array") {
-    val account = new Account
+
+    val date = mock[DateProvider]
+
+    val date1 = LocalDate.of(2019, 4, 20)
+    val date2 = LocalDate.of(2019, 4, 21)
+
+    val account = new Account(date)
+
+    when(date.now) thenReturn(date1, date2)
+
     account.deposit(1000)
+
     account.withdraw(500)
-    account.returnTransanctions()
+
+    account.returnTransactions should contain allOf(Transaction(date1, 1000, TransactionType.Deposit), Transaction(date2, 500, TransactionType.Withdraw))
   }
 }
-
