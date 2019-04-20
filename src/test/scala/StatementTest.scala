@@ -7,7 +7,7 @@ import org.mockito.Mockito._
 
 import scala.collection.mutable.ArrayBuffer
 
-class StatementClass extends FunSuite with MockitoSugar {
+class StatementTest extends FunSuite with MockitoSugar {
   test("prints the statement") {
     val statement = new Statement
 
@@ -21,5 +21,10 @@ class StatementClass extends FunSuite with MockitoSugar {
         |2019-04-21 || || 500.00 || 2500.00
         |2019-04-20 || 2000.00 || || 3000.00
         |2019-04-20 || 1000.00 || || 1000.00""".stripMargin
+  }
+
+  test("prints the statement - returns header") {
+    val statement = new Statement
+    statement.printStatement(ArrayBuffer()) shouldBe "Date || Credit || Debit || Balance"
   }
 }

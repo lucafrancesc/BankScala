@@ -4,6 +4,7 @@ class Statement {
   private val heading: String = "Date || Credit || Debit || Balance"
 
   def printStatement(transactions: ArrayBuffer[Transaction]): String = {
+    if(transactions.isEmpty) return heading
     var balance: BigDecimal = 0
     var formattedTransactions: ArrayBuffer[String] = ArrayBuffer()
     for(transaction <- transactions) {
